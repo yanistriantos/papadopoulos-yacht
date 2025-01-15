@@ -24,7 +24,7 @@ header {
   padding: 1rem;
   position: fixed; 
   width: 100%; 
-  z-index: 100; /* Keeps header on top of other content */
+  z-index: 100; 
 }
 
 nav {
@@ -52,13 +52,13 @@ nav a {
 
 .welcome-section {
   height: 100vh;
-  /* Here we use multiple backgrounds to create a luxury effect */
+  
   background-image: 
      linear-gradient(
       rgba(0, 0, 0, 0.3) 0%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    /* Second layer: a soft light overlay that creates a gentle glow */
+    
       radial-gradient(
         circle at center,
         rgba(255, 255, 255, 0.1) 0%,
@@ -83,7 +83,7 @@ nav a {
 
 .welcome-section p {
   font-size: 24px;
-  margin-bottom: 40px; /* Adds space before button */
+  margin-bottom: 40px; 
 }
 
 .book-button {
@@ -92,7 +92,7 @@ nav a {
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 5px;
-  margin-top: 30px; /* More space above button */
+  margin-top: 30px; 
   font-size: 18px;
 }
 
@@ -158,7 +158,7 @@ footer {
   color: white;
   text-decoration: none;
   margin: 0 1rem;
-  padding: 5px 10px; /* Makes links easier to click */
+  padding: 5px 10px; 
 }
 
 .copyright {
