@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caudex:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events - Papadopoulos Yacht Parties</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: "Caudex", serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+
+      .event-hero {
+        background-image: url("images/clbrte-image-events.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+      }
+
+      .event-hero h1 {
+        font-size: 64px;
+        margin: 0;
+      }
+
+      .events-section {
+        padding: 40px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .event-item {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        background-color: rgba(211, 211, 211, 0.3); /* Light grey background */
+        border-radius: 8px;
+        padding: 20px;
+      }
+
+      .event-image {
+        flex: 1 1 50%;
+        padding: 10px;
+      }
+
+      /* Sunset Cruise Specific Styling */
+      .event-image.sunset-cruise img {
+        width: 80%; /* Resize the sunset cruise image */
+        max-height: 300px; /* Limit height to fit the text */
+        object-fit: cover;
+        border-radius: 8px;
+        margin: 0 auto; /* Center the image */
+        display: block;
+      }
+
+      .event-image img {
+        width: 100%;
+        border-radius: 8px;
+      }
+
+      .event-text {
+        flex: 1 1 50%;
+        padding: 10px;
+      }
+
+      .event-text h2 {
+        font-size: 36px;
+        color: #18184a;
+        margin-bottom: 10px;
+      }
+
+      .event-text p {
+        font-size: 20px;
+        color: #445069;
+        text-align: justify;
+      }
+
+      footer {
+        background-color: #1a1a1a;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+
+      #centered-text {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: #18184a;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Papadopoulos</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="event.html" class="active">Events</a></li>
+          <li><a href="booking.html">Book Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="event-hero">
+      <h1>Events</h1>
+    </div>
+
+    <section class="events-section">
+      <div class="event-item">
+        <div class="event-image">
+          <img src="images/wedding-image.jpg" alt="Wedding on a yacht" />
+        </div>
+        <div class="event-text">
+          <h2>Weddings</h2>
+          <p id="centered-text">Say yes to a yachting wedding!</p>
+          <p>
+            Celebrate your special day on a luxury yacht and create
+            unforgettable memories. Our team handles every detail—from floral
+            décor to premium dining, fireworks, and more—to make your dream
+            wedding perfect.
+          </p>
+          <p>
+            Enjoy a romantic celebration in stunning Greek destinations like
+            Athens Riviera, Mykonos, or Santorini, with options for intimate
+            receptions or grand gatherings up to 300 guests.
+          </p>
+        </div>
+      </div>
+
+      <div class="event-item">
+        <div class="event-image">
+          <img src="images/corporate.jpg" alt="Corporate event on a yacht" />
+        </div>
+        <div class="event-text">
+          <h2>Corporate Events</h2>
+          <p id="centered-text">
+            Impress clients and reward your team with exclusive yacht
+            experiences!
+          </p>
+          <p>
+            Luxury Yacht Parties specialize in planning and delivering
+            first-class events in Greece. Our strong reputation was built
+            through diligent planning, integrity, and a straightforward approach
+            to our clients, offering exciting and excellent corporate event
+            services.
+          </p>
+          <p>
+            We organize incentive travel programs and special events at Athens
+            Riviera, Saronic Gulf, Temple of Poseidon at Sounion for local
+            culture, or Aegina island.
+          </p>
+        </div>
+      </div>
+
+      <div class="event-item">
+        <div class="event-image sunset-cruise">
+          <img src="images/sunset-cruise.jpg" alt="Sunset cruise" />
+        </div>
+        <div class="event-text">
+          <h2>Sunset Cruises</h2>
+          <p id="centered-text">
+            Relax and unwind with a perfect sunset cruise!
+          </p>
+          <p>
+            Experience Mediterranean sunsets in style with premium cocktails,
+            music, and stunning views aboard our luxury yachts. Sail through the
+            serene Greek waters as the sky turns into a canvas of vivid colors,
+            creating unforgettable moments.
+          </p>
+          <p>
+            Perfect for couples, families, or small groups seeking a magical
+            evening at sea.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contact-info">
+        <h3>Contact Us</h3>
+        <p>Email: info@papadopoulosyachts.com</p>
+        <p>Phone: +1 234 567 890</p>
+      </div>
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </div>
+      <p class="copyright">&copy; 2025 Papadopoulos Yacht Parties</p>
+    </footer>
+  </body>
+</html>
