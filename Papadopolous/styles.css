@@ -114,9 +114,9 @@ nav a {
 .feature-box {
   text-align: center;
   padding: 1rem;
-  background-color: white; /* Added white background */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: white; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .feature-image {
@@ -124,11 +124,11 @@ nav a {
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
-  margin-bottom: 15px; /* Space after image */
+  margin-bottom: 15px; 
 }
 
 .feature-box h3 {
-  margin-bottom: 10px; /* Space after heading */
+  margin-bottom: 10px; 
 }
 
 /* Reviews section */
@@ -182,7 +182,7 @@ footer {
   }
 
   .welcome-section h2 {
-    font-size: 32px; /* Smaller text on mobile */
+    font-size: 32px; 
   }
 
   .welcome-section p {
